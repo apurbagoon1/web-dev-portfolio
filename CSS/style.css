@@ -19,7 +19,7 @@
     font-weight: bold;
     font-size: 20px;
     color: white;
-    padding: 20px 35px;
+    padding: 20px 30px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -87,6 +87,10 @@ nav li a {
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 200px;
+}
+
+.banner-section button {
+    margin-right: 20px;
 }
 
 .banner-content {
@@ -200,3 +204,32 @@ main section {
 .resume-download-cv {
     margin-top: 50px;
 }
+
+/* Footer Styles Starts */
+footer {
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+    gap: 100px;
+}
+
+.foot-desc {
+    font-size: 16px;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    width: 450px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+
